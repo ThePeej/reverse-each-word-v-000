@@ -6,7 +6,7 @@ def reverse_each_word(string)
   word_array.collect do |word|
     reverse_words << word.reverse
   end
-  binding.pry
+  reverse_words.join(" ")
 end
 
 
