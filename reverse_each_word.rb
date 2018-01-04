@@ -5,5 +5,4 @@ def reverse_each_word(string)
   reverse_words = []
   word_array.each {|word| reverse_words << word.reverse}
   reverse_words.join(" ")
-  binding.pry
 end
